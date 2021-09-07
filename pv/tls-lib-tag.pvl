@@ -411,7 +411,7 @@ let channelBindingQuery() =
 (********************************************************)
 (*  Sanity Queries: should all be false  *)
 (********************************************************)
-
+(*
 query cr:random, sr:random, 
       psk:preSharedKey,p:pubkey,o:params, m:params, 
       ck:ae_key, sk:ae_key, cb:bitstring, ms:bitstring;
@@ -448,7 +448,7 @@ query cr:random, sr:random,
       psk:preSharedKey,p:pubkey,o:params, m:params, 
       ck:ae_key, sk:ae_key, cb:bitstring, ms:bitstring;
       event(ClientFinished(TLS13,cr,sr,psk,p,m,o,ck,sk,cb,ms)).
-
+*)
 
 (********************************************************)
 (*  TLS 1.2 Processes: no client auth, DHE + RSA *)
